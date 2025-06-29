@@ -8,6 +8,7 @@
     "test:component": "vitest run tests/components",
     "test:e2e": "playwright test tests/e2e",
     "test": "npm run test:unit && npm run test:component && npm run test:e2e",
+    "test:watch": "vitest watch tests/unit tests/components",
     "front": "vite shri-2025",
     "front:build": "vite build shri-2025",
     "front:preview": "vite preview shri-2025",
